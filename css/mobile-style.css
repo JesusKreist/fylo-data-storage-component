@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Raleway:wght@400;700&display=swap');
+/* 
+font-family: 'Noto Sans JP', sans-serif;
+
+font-family: 'Raleway', sans-serif; */
+.attribution {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.main-container {
+    /* height: 100vh; */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+  /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../images/bg-mobile.png); 
+    font-family: 'Raleway', sans-serif;
+    background-size: cover;
+    height: auto;
+    width: auto;
+}
+.main-visualiser {
+    /* border: 1px solid green; */
+    display: grid;
+    row-gap: 1rem;
+}
+
+.offer,
+.storage {
+    /* border: 1px solid green; */
+    /* height: auto; */
+    width: 85vw;
+    border-radius: .7rem;
+    padding: 2.5rem;
+    padding-top: 1.5rem;
+    background-color: hsl(228, 56%, 26%);
+
+}
+
+.offer {
+    border-top-right-radius: 6rem;
+    padding-bottom: .5rem;
+}
+
+.offer__logo {
+    width: 60%;
+    object-fit: contain;
+}
+
+.offer-container {
+    padding: 2rem;
+    padding-left: 0;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: start;
+    column-gap: 1rem;
+}
+
+.offer-container__icon {
+    /* border: 1px solid green; */
+    padding: 1rem;
+    border-radius: .7rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    width: 3.2rem;
+    height: 3.2rem;
+    background-color: hsl(229, 57%, 11%);
+
+}
+
+.storage__text {
+    font-size: calc(.2rem + 2.5vw);
+    color: hsl(243, 100%, 93%);
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+
+.progressbar {
+    background-color: #15204b;
+    border-radius: 1rem;
+  /* (height of inner div) / 2 + padding */
+    padding: 3px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.progressbar > div {
+    background: rgb(255,163,153);
+    background: -moz-linear-gradient(90deg, rgba(255,163,153,1) 0%, rgba(255,77,151,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(255,163,153,1) 0%, rgba(255,77,151,1) 100%);
+    background: linear-gradient(90deg, rgba(255,163,153,1) 0%, rgba(255,77,151,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffa399",endColorstr="#ff4d97",GradientType=1); 
+    width: 80%;
+  /* Adjust with JavaScript */
+    height: .8rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dot {
+  height: .7rem;
+  width: .7rem;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: .1rem;
+}
+

@@ -78,11 +78,17 @@ font-family: 'Raleway', sans-serif; */
 
 }
 
+.storage {
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    position: relative;
+}
+
 .storage__text {
-    font-size: calc(.2rem + 2.5vw);
+    font-size: calc(.2rem + 3vw);
     color: hsl(243, 100%, 93%);
     text-align: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.3rem;
     
 }
 
@@ -119,3 +125,36 @@ font-family: 'Raleway', sans-serif; */
   margin-right: .1rem;
 }
 
+.storage__progress__report {
+    display: flex;
+    justify-content: space-between;
+    padding-top: .8rem;
+    padding-bottom: 1rem;
+    /* font-size: calc(.2rem + 2.5vw); */
+    color: hsl(243, 100%, 93%);
+}
+
+.storage__data-remaining {
+    background-color: white;
+    color: hsl(229, 57%, 11%);
+    font-size: 2.5rem;
+    padding: 1rem;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: .5rem;
+    /* left: 50%; */
+    /* top: 0; */
+    left: 0;
+    bottom: -2rem;
+    right: 0;
+}
+
+.storage__data-remaining--grey {
+    color: grey;
+    font-size: 1rem;
+    vertical-align: middle;
+}

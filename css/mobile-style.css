@@ -21,22 +21,14 @@ html {
 }
 
 .main-container {
-    /* height: 100vh; */
-    position: fixed;
-    top: 50%;
-    left: 50%;
-  /* bring your own prefixes */
-    transform: translate(-50%, -50%);
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    /* background-image: url(../images/bg-mobile.png);  */
     font-family: 'Raleway', sans-serif;
-    /* background-repeat: no-repeat; */
-    /* background-size: 100% 100%; */
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    height: 100vh;    
 }
+
 .main-visualiser {
-    /* border: 1px solid green; */
     display: grid;
     row-gap: 1rem;
 }
@@ -59,8 +51,8 @@ html {
 }
 
 .offer__logo {
-    width: 60%;
-    object-fit: contain;
+    /* width: 60%; */
+    object-fit: cover;
 }
 
 .offer-container {

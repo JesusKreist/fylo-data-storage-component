@@ -4,12 +4,15 @@ font-family: 'Noto Sans JP', sans-serif;
 
 font-family: 'Raleway', sans-serif; */
 .attribution {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
+    margin-top: 5rem;
+    color: white;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: hsl(6, 100%, 80%);
 }
 
 html { 
